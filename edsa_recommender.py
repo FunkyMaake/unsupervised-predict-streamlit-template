@@ -102,10 +102,14 @@ def main():
     # ------------- SAFE FOR ALTERING/EXTENSION -------------------
     if page_selection == "Solution Overview":
         st.title("Solution Overview")
-        st.write("Describe your winning approach on this page")
+        st.write("Here, you can describe your winning approach to building the recommender system and elaborate on the unique aspects of your solution that differentiate it from others.")
+        st.write("Include information on the algorithms used, data preprocessing steps, model evaluation techniques, and any innovations you introduced.")
 
-    # You may want to add more sections here for aspects such as an EDA,
-    # or to provide your business pitch.
+        st.title("Exploratory Data Analysis")
+        st.write("In this section, you can showcase key insights from the dataset that influenced your recommendation system. This may include data distribution visualizations, statistical summaries, or notable patterns.")
+
+        st.title("Business Pitch")
+        st.write("Use this section to outline the business value of your recommendation system. Describe how it can benefit users, drive engagement, and potentially increase revenue. Share your vision for scaling and integrating the system into real-world applications.")
 
 
 if __name__ == '__main__':
